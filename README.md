@@ -1,93 +1,58 @@
-<h1 align="center">HOME SECURITY SYSTEM</h1>
+<h1 align="center">FACIAL RECOGNITION SECURITY SYSTEM</h1>
+<p align="center"> <a target="_blank" href="https://drive.google.com/file/d/1mwXoAp8VMO9XeV4o94l6xOgLkuQERjaD/view?usp=sharing">🎥 Video Demonstration</a> </p>
+Table of Contents
+<details open="open"> <summary>Expand to view</summary> <ol> <li> <a href="#about-the-project">About The Project</a> <ul> <li><a href="#salient-features">Salient Features</a></li> <li><a href="#built-with">Built With</a></li> <li><a href="#compatible-platforms">Compatible Platforms</a></li> </ul> </li> <li> <a href="#getting-started">Getting Started</a> <ul> <li><a href="#prerequisites">Prerequisites</a></li> <li><a href="#installation">Installation</a></li> </ul> </li> <li><a href="#navigating-through-the-app">Navigating Through the App</a></li> </ol> </details>
+About The Project
+The Facial Recognition Security System is an advanced face recognition solution developed as part of the Microsoft Engage 2022 program. Designed to enhance home security, this project employs real-time video processing to detect and identify faces against a predefined database of known individuals. In cases where an unidentified person is detected, the system promptly flags them as an intruder and sends an email notification, including the intruder's image.
 
-<p align="center">
- <a target="_blank" href="https://drive.google.com/file/d/1mwXoAp8VMO9XeV4o94l6xOgLkuQERjaD/view?usp=sharing">Video Demo</a> 
-</p>
+Creator: Hrishikesh Hazarika
 
-    
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#salient-features">Salient Features</a></li>
-       <li><a href="#built-with">Built With</a></li>
-        <li><a href="#compatible-platforms">Compatible Platforms</a></li>    
-      </ul>
-    </li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#navigating-through-the-app">Navigating through the App</a></li><ul>
-      </ul>
-  </ol>
-</details>
+Salient Features
+Real-Time Security: Actively monitors and processes video frames to detect faces in real time.
+Advanced Detection Capabilities: Handles non-frontal face detection with precision.
+Intruder Notification: Identifies unknown individuals and sends email alerts with a timestamped image for immediate action.
+Built With
+Tech Stack:
 
-<!-- ABOUT THE PROJECT -->
+Front-End:
+HTML5, CSS3, JavaScript, Bootstrap
+Back-End:
+Flask, Python
+Face Recognition Libraries:
+OpenCV, cv2, os, sys, face_recognition
+Compatible Platforms
+The system is optimized for use on:
 
-## About The Project
-* Face Recognition Security System project built during Microsoft Engage 2022 program. 
-* This programme processes frames from live video and compares detected faces against a set of known face encodings. 
-* If there is no match found, the person is considered to be an intruder and an email is sent with an image of the intruder by invoking a shell script..
+Laptops
+Desktops
+Tablet PCs
+Getting Started
+Prerequisites
+Ensure the following dependencies are installed on your system before proceeding:
 
-### Salient Features
-* Real Time Security
-* It  deals with non frontal face detection.
-* Identify unknown persons that are not registered and send notifications via emails with current date and time.
+Python 3.8 or higher
+Flask Framework
+OpenCV
+Face Recognition Libraries
+Installation
+Clone the repository to your local machine:
 
+git clone https://github.com/your-repo/facial-recognition-security-system.git
+Navigate to the project directory:
 
-### Built With
+cd facial-recognition-security-system
+Install the required dependencies:
 
-###  Tech Stack: 
-* Front-end :
-  HTML5, CSS3,Javascript, Bootstrap
-* Back-end :
-  Flask, Python
-* Face Recogntion library: 
- Opencv, cv2, os, sys, face_recognition
-
-### Compatible Platforms
-Laptops, Desktops and Tablet PCs
-
-
-## Getting Started
-To install and run the project on your local system, following are the requirements:
-### Prerequisites
-The `requirements.txt` file should list all Python libraries that your notebooks
-depend on, and they will be installed using:
-
-```
 pip install -r requirements.txt
-```
+Run the application:
 
-### Instruction
+python app.py
+Navigating Through the App
+Main Interface: Displays live video feed and performs face detection.
+Email Alerts: Automatically sends a notification with an image upon detecting an unknown individual.
+System Screenshot
 
-To run the application run the command 
-```sh
-  python app.py
-```
-
-* Web Application
-
-To separately run the Web application on your local host, perform the following steps:
-
-Run the following commands to start the server side.
-
-```sh
-  npm install && npm start
-```
-Run the following commands to start the client side and run it on your local host
-```sh
-  cd templates
-```
-```sh
-  node index.js
-```
+This project is a testament to leveraging advanced technologies to address critical security challenges. Created with passion and precision by Hrishikesh Hazarika.
 ## Features & Interfaces (Glimpses of Web Application):
 #### Landing page
 ![Screenshot (51)](https://user-images.githubusercontent.com/77895187/170818251-df799419-cb49-4e54-826a-9521ffc30ab5.png)
